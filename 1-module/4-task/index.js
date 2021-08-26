@@ -9,4 +9,3 @@ function checkSpam(str) {
   }
 }
 
-checkSpam();
