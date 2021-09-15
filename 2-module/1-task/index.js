@@ -5,7 +5,7 @@ function sumSalary(salaries) {
   for (let key in salaries) {
 
 
-    let isSalary = typeof salaries[key] === "number";
+    let isSalary = typeof salaries[key] === "number" && isFinite(salaries[key]);
 
     
     if (isSalary) {
